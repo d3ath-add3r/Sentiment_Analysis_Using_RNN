@@ -27,6 +27,7 @@ value – web
 Positive, neutral, and negative.
 
 **About the model**
+
 Model: "sequential_1"
 _________________________________________________________________
 Layer (type)                 Output Shape              Param #   
@@ -41,6 +42,7 @@ dense_2 (Dense)              (None, 64)                4160
 _________________________________________________________________
 dense_3 (Dense)              (None, 3)                 195       
 =================================================================
+
 Total params: 140,611
 Trainable params: 140,611
 Non-trainable params: 0
