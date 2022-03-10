@@ -26,11 +26,11 @@ value – web
 14. Sentiment (target) - Indicates the sentiment of the tweet, consists of three categories: 
 Positive, neutral, and negative.
 
-**About the model**
+# **About the model**
 
-Model: "sequential_1"
+Model: sequential_1
 _________________________________________________________________
-Layer (type)                 Output Shape              Param #   
+Layer (type)                 Output Shape              Param number  
 =================================================================
 text_vectorization_1 (TextVe (None, None)              0         
 _________________________________________________________________
@@ -49,8 +49,10 @@ Non-trainable params: 0
 
 The input for the model is from encoder which encodes the text tweet into machine understandable data.
 
-**Training and Validation Accuracy and Loss curves:**
+# **Training and Validation Accuracy and Loss curves:**
+
 ![image](https://user-images.githubusercontent.com/84405967/157660762-a49d2d5b-3291-43d5-a5ce-1db901553104.png)
+
 The curves are pretty smooth and model is good.
 
 The accuracy of the RNN model : 86.17 % 
